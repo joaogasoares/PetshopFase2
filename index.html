@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Caminho relativo -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">PetShop</a> <!-- Caminho relativo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a> <!-- Caminho relativo -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/servicos.html">Serviços</a> <!-- Caminho relativo -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/produtos.html">Produtos</a> <!-- Caminho relativo -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/cadastro.html">Cadastro</a> <!-- Caminho relativo -->
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Conteúdo principal -->
+        <div id="productCarousel" class="carousel slide d-flex align-items-center" data-ride="carousel" style="min-height: 80vh;">
+            <div class="carousel-inner w-100">
+                <!-- Item 1 -->
+                <div class="carousel-item active text-center">
+                    <a href="pages/produtos.html">
+                        <img src="images/racaoCachorro.png" class="custom-size d-block mx-auto" alt="Ração para Cachorro">
+                    </a>
+                    <div class="mt-3">
+                        <h5>Ração para Cachorro</h5>
+                    </div>
+                </div>
+                
+                <!-- Item 2 -->
+                <div class="carousel-item text-center">
+                    <a href="pages/produtos.html">
+                        <img src="images/areiaGato.png" class="custom-size d-block mx-auto" alt="Areia para Gato">
+                    </a>
+                    <div class="mt-3">
+                        <h5>Areia para Gato</h5>
+                    </div>
+                </div>
+                
+                <!-- Item 3 -->
+                <div class="carousel-item text-center">
+                    <a href="pages/produtos.html">
+                        <img src="images/racaoMolhada.png" class="custom-size d-block mx-auto" alt="Ração Molhada">
+                    </a>
+                    <div class="mt-3">
+                        <h5>Ração Molhada</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles do carousel -->
+            <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 PetShop. Todos os direitos reservados. </span>
+            <a id="contato" href="pages/contato.html">Contato</a> <!-- Caminho relativo -->
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script> 
+</body>
+</html>

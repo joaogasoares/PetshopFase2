@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - PetShop</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Início do corpo da página -->
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Cabeçalho da página com barra de navegação -->
+        <a class="navbar-brand" href="../index.html">PetShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Botão para expandir/colapsar o menu de navegação em telas pequenas -->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Container colapsável para os itens do menu de navegação -->
+            <ul class="navbar-nav">
+                <!-- Lista de itens de navegação -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Seção de contato -->
+        <div class="container mt-5">
+            <h1>Contato</h1>
+            <div class="row">
+                <!-- Layout de duas colunas -->
+
+                <div class="col-md-6">
+                    <!-- Coluna para as informações de contato -->
+                    <h4>Informações de Contato</h4>
+                    <p><strong>Endereço:</strong> Rua Exemplo, 123, Bairro Centro, Cidade, Estado</p>
+                    <p><strong>Telefone:</strong> (51) 1234-5678</p>
+                    <p><strong>E-mail:</strong> contato@petshop.com</p>
+                </div>
+
+                <div class="col-md-6">
+                    <!-- Coluna para o formulário de contato -->
+                    <h4>Envie uma Mensagem</h4>
+                    <form>
+                        <div class="form-group">
+                            <!-- Campo de entrada para nome -->
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <!-- Campo de entrada para e-mail -->
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+                        </div>
+                        <div class="form-group">
+                            <!-- Área de texto para a mensagem -->
+                            <label for="mensagem">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <!-- Rodapé da página -->
+        <div class="container">
+            <span class="text-muted">© 2024 PetShop. Todos os direitos reservados. </span>
+            <a id="contato" href="contato.html">Contato</a>
+        </div>
+    </footer>
+
+    <!-- Scripts necessários para o Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>

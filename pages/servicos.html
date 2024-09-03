@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - PetShop</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Início do corpo da página -->
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">PetShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="servicos.html">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container mt-5">
+            <h1>Serviços Oferecidos</h1>
+            <div class="row">
+                <!-- Serviço 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Banho e Tosa</h5>
+                            <p class="card-text">Serviço de banho e tosa para todos os tipos de pets.</p>
+                            <p class="card-text"><strong>R$ 80,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Serviço 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Consulta Veterinária</h5>
+                            <p class="card-text">Consultas veterinárias com profissionais especializados.</p>
+                            <p class="card-text"><strong>R$ 120,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Hospedagem</h5>
+                            <p class="card-text">Hospedagem especializada no conforto do seu pet.</p>
+                            <p class="card-text"><strong>R$ 50,00</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulário de Agendamento -->
+            <h2>Agendamento de Serviços</h2>
+            <form>
+                <div class="form-group">
+                    <label for="servico">Escolha o Serviço</label>
+                    <select class="form-control" id="servico">
+                        <option>Banho e Tosa</option>
+                        <option>Consulta Veterinária</option>
+                        <option>Hospedagem</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="data">Escolha a Data</label>
+                    <input type="date" class="form-control" id="data">
+                </div>
+                <div class="form-group">
+                    <label for="horario">Escolha o Horário</label>
+                    <input type="time" class="form-control" id="horario">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="telebusca">
+                    <label class="form-check-label" for="telebusca">Deseja a opção de tele-busca?</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Agendar Serviço</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 PetShop. Todos os direitos reservados. </span>
+            <a id="contato" href="contato.html">Contato</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/servico-date-settings.js"></script> 
+</body>
+</html>
